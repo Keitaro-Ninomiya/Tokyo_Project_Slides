@@ -1,0 +1,59 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{mathptmx}
+\usepackage{amsmath}
+\usepackage{varwidth}
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrsubule in tables
+\usepackage{adjustbox}
+\usepackage{import}
+\usepackage{subcaption}
+\usepackage{subfiles}
+\usepackage{url}
+\usepackage[mmddyyyy]{datetime}
+\usepackage{appendixnumberbeamer}
+\usepackage{tabularx}
+
+\setbeamercovered{transparent}
+\setbeamertemplate{footline}[frame number]
+\setbeamerfont{framesubtitle}{size=\Large}
+
+\title{Restructuring of an institution}
+\subtitle{Historical Evidence from Tokyo}
+\author{Keitaro Ninomiya}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+%Background
+\input{Background/Background.tex}
+
+%Data
+\input{Data/Data.tex}
+
+%Research Question
+\input{Research Question/Research Question Merger}
+
+%Empirical Strategy
+\input{Empirical Strategy/Empirical Strategy.tex}
+
+%Research Question
+\input{Research Question/Research Question Women}
+
+%Motivation
+%\input{Motivation/Motivation.tex}
+
+
+
+%Related Literature
+%\input{Related Literature/Related Literature.tex}
+
+%Results
+%\input{Results/Results}
+
+%Conclusions
+\input{Conclusion/Conclusion}
+
+\end{document}

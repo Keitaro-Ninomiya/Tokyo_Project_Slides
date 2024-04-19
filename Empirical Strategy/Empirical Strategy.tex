@@ -1,0 +1,30 @@
+\begin{frame}{Empirical Strategy: Retention of Tokyo-Shi workers}
+\begin{itemize}
+    \item Linear probability model.
+\end{itemize}
+\begin{equation}
+    Y_{i,j,t} = (N_j-D_{i,j})*ConnectionBoss * ConnectionCoworker \beta + X_{i,t}\delta +\epsilon_{i,t}
+    \end{equation}
+    \begin{enumerate}
+        \item $Y_{i,j,t}$: Retention of position for worker $i$ working at Tokyo-Shi office $j$ at time $t$
+        \item $N_j$: Total number of staff at office $j$.
+        \item $D_{i,t}$: Number of position occupied by workers transferred from Tokyo-Fu.
+        \item $ConnectionBoss$: Connectivity between employee $i$ and boss sent to new office (Similar age, prefecture of origin, university, etc). 
+        \item $ConnectionCoworker$: Years worked together, Ratio of engineers to non-engineers.
+        \item $X_{i,j,t}$ Productivity measure, tenure in Tokyo-Fu, Gender.
+    \end{enumerate}
+    \end{frame}
+
+\begin{frame}{Empirical Strategy: Tokyo-Fu worker retention}
+\begin{itemize}
+    \item Linear probability model.
+\end{itemize}
+\begin{equation}
+    Y_{i,j,t} = Z_{i,j,t} \theta_1 + V_{i,j,t}\theta_2 +\upsilon_{i,j,t}
+    \end{equation}
+\begin{enumerate}
+    \item $Y_{i,j,t}$: Retention of position for Tokyo-Fu worker $i$ working at office $j$ at time $t$
+    \item $Z_{i,t}$: Years worked with manager in office $j$ until time $t$, Productivity measure, etc. 
+    \item $V_{i,j,t}$: Drafted worker in office $j$ at time $t$.
+\end{enumerate}
+\end{frame}
